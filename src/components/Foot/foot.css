@@ -1,0 +1,39 @@
+.footer{
+    width: 100%;
+    height: 40%;
+     font-size: 15px;
+     background-color: bisque;
+     padding-top: 2%;
+ 
+ }
+ 
+ .fLists{
+     display: flex;
+     justify-content: space-between;
+     padding-left: 10%;
+     padding-right: 10%;
+     gap: 3%;
+ }
+ 
+ .fList{
+   list-style: none;  
+   padding: 0;
+ }
+ 
+ .fListItem{
+     margin-bottom: 10px;
+     color: #003580;
+     cursor: pointer;  
+ }
+
+ .fText{
+    text-align: end;
+    padding-right: 10%;
+ }
+
+ .social{
+    cursor: pointer;
+    
+ }
+ 
+ 

@@ -1,0 +1,36 @@
+
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-bottom: 3%;
+  }
+  .user-card {
+    background-color:beige;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    border: 1px solid #5C5470;
+    font-size: 18px;
+    margin-bottom: 2%;
+  }
+  .user-card h2 {
+    margin-bottom: 10px;
+  }
+  .user-card p {
+    margin-bottom: 5px;
+  }
+  .user-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  .user-card a:hover {
+    text-decoration: underline;
+  }
+
+  .main{
+    padding: 20px;
+  }

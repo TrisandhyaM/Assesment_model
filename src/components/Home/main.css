@@ -1,0 +1,104 @@
+.body{
+    background:url('https://learningtechcoding.github.io/Ecommerece-Page-html/back.jpg');
+    position: relative;
+    /* height: 150vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+
+.model{
+    position: relative;
+    display: flex;
+}
+
+.model_pic{
+    transform: scaleX(-1);
+  width: 50%;
+}
+
+.text{
+margin-block: auto;
+margin-inline: auto;
+justify-content: center;
+align-items: center;
+}
+
+.just, .for {
+    display: flex;
+    position: relative;
+}
+.newarival{
+    
+    position: absolute;
+    right: 30%;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: 15%;
+
+}
+
+h1{
+    font-weight: bold;
+    margin:  0px;
+    padding: 0px;
+    font-size: 140px;
+}
+.you{
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+
+    font-size: 95px;
+    color: coral;
+    text-transform: lowercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: rotate(-30deg);
+    z-index: 100px;
+
+}
+
+.onlineorder{
+   display: flex;
+
+}
+
+.order, .onlineorder h2 {
+    padding-top: 10px;
+    width: 240px;
+    height: 70px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: left;
+   }
+
+.order {
+     background-color: black;
+    color: antiquewhite;
+    position: relative;
+}
+.order span{
+    position: absolute;
+   right: 15%;
+}
+
+.onlineorder h1{
+    position: absolute;
+    float: right;
+    top: 20px;
+    width: 90px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 75px;
+    background-color: #f1c19d;
+    border-radius:3px; 
+    z-index: -100;
+} 
+
+
+
